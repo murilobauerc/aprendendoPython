@@ -12,7 +12,7 @@ for count in range(2,num):
 if numPrimo:
     print('%d é primo.' %num)
 
-# 3) Ainda de uma outra forma, utilizando loop for-else (não é necessária a flag)
+# Ainda de uma outra forma, utilizando loop for-else (não é necessária a flag)
 num1 = int(input('Informe um número: '))
 for contador in range (2,num1):
     if num1 % contador == 0:
