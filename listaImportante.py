@@ -8,9 +8,10 @@ while i < 5:
 media = soma / i
 print('Media das 5 notas da lista: %5.2f' %media)
 
+
+# Utilizando-se de append
 i = 0
 vetor_num = [ ]
-# Utilizando-se de append
 while i < 5:
     n = int(input('Informe o numero: '))
     vetor_num.append(n) 
