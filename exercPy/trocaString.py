@@ -1,4 +1,4 @@
-
+# Este exercício insere um '*' toda vez que encontrar uma vogal na palavra
 palavra =  input('Informe uma palavra: ')
 i = 0
 troca = ""
