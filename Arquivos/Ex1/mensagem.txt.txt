@@ -1,0 +1,3 @@
+Este é um texto para ser criptografado atraves de um programa. Teste
+123
+Alo vogal A E I O U
