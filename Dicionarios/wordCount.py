@@ -1,4 +1,4 @@
-# dic.keys() dict_keys(['a', 'g', 'o'])
+# dic.keys()    dict_keys(['a', 'g', 'o'])
 # dic.values() dict_values('alpha', 'gama', 'omega'])
 
 arquivo = open('alice.txt')
