@@ -6,6 +6,7 @@ para i = 1 até 9 # 1,2,3,4,5,6,7,8,9
  para j = 1 até 6 #1,2,3,4,5,6
  imprime 'oi'
 
+# Minha resolução a partir daqui:
 ''' for i in range(1,10):  # i = 1,2,3,4,5,6,7,8,9 
         if i != 3:
             for j in range(1,7): # j = 1,2,3,4,5,6
