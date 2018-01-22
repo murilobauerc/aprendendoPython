@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redes de Computadores</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+  <body>
+    <a href="../index.html" class="home">Voltar para a página inicial</a>
+    <header class="topicheader">
+      <h1 class="title">Modelo OSI</h1>
+      <time> 27 de Abril, 2017. </time>
+    </header>
+    <main class="topicmain">
+      <p>
+        <strong>Open System Interconnection</strong>, ou somente <strong>OSI</strong>, é um modelo feito para facilitar a interligação de sistemas computacionais,
+        e principalmente utilizar o modelo como entendimento de como os protocolos de rede funcionam.
+        O modelo OSI é dividido em <strong> sete </strong> camadas, eis as camadas:
+      </p>
+      <p>7. Camada de aplicação;  6. Camada de apresentação;  5. Camada de sessão;</p>
+      <p>4. Camada de transporte;</p>
+      <p>3. Camada de rede;</p>
+      <p>2. Camada de enlace de dados;</p>
+      <p>1. Camada física;</p>
+      <img src="../assets/osimodel.jpg" alt="picture"/>
+      <p>
+        Cada camada do modelo OSI possui suas implementações e suas próprias funções,
+        e o principal papel do OSI é padronizar a ordem em que ocorre os acontecimentos,
+        de forma que as camadas sejam hierárquicas, onde cada camada é conhecida de forma genérica como "camada N".
+        Somente a entidade N+1 (na camada acima de N) pode solicitar serviços de uma "entidade N" (na camada N).
+      </p>
+      <p>
+        Em vez de explicar cada uma das setes camadas, explicaremos o modelo OSI de forma
+        simplificada, menos conceitual, com coisas mais práticas. Esse modelo simplificado do OSI possui cinco camadas,
+        e não sete como vimos acima. São essas 5 camadas:
+      </p>
+      <p>
+        <strong>- Camada de aplicação:</strong>
+        São os protocolos de nível mais alto, como HTTP (transferência de hipertexto),
+        FTP (transferência de arquivos), DNS (resolução de nomes). Seus protocolos são implementados por aplicações do usuário.
+        Um exemplo de aplicação é o navegador, que implementa o protocolo HTTP para se comunicar com o servidor.
+      </p>
+      <p>
+        <strong>- Camada de transporte:</strong>
+        Nessa camada ficam os protocolos TCP/UDP. A
+        principal função desses protocolos é empacotar os dados e manter o controle da entrega desses dados,
+        por isso o nome da camada. O protocolo TCP tem a garantia de entrega dos dados, tanto o protocolo FTP, SSH, HTTP, etc. usam
+        esse protocolo para justamente ter essa garantia da entrega do conteúdo. Enquanto que o protocolo UDP tem uma particularidade:
+        não controla a forma como os pacotes de dados chegam e não se interessa e os dados vão se perder no meio do caminho.
+      </p>
+      <p>
+        <strong>- Camada de rede:</strong>
+          Aqui fica o protocolo IP. Trata da entrega dos pacotes no destino e seu caminho para chegar até lá.
+          Tem como responsabilidade descobrir a melhor rota pros dados pela rede.
+          É comum vermos a junção dos dois protocolos: <strong>TCP/IP e UDP/IP.</strong>
+      </p>
+      <p>
+        <strong>- Camada de enlace:</strong>
+          Basicamente a camada de ligação de dados ou de enlace trata sobre a detecção e a correção de erros que pode vir
+          a ocorrer na camada física. Na camada de enlace começa a depender dos dispostivos e equipamentos de hardware da camada física,
+          e todas os protocolos citados abaixo que são especificados por um orgão chamado Institute of Electrical and Electronics Engineers,
+          mais conhecido como IEEE. Os principais protocolos dessa organização são:
+          <p> Ethernet (conjunto de tecnologias que provê a rede cabeada).</p>
+          <p> Wi-Fi* (tecnologia que permite dispositivos se conectem a uma rede sem fio). </p>
+          *O nome Wi-Fi é apenas um nome comercial, pois o nome original é <strong> Dispositivo compatível com IEEE802.11.</strong>
+      </p>
+      <p>
+        <strong>- Camada física:</strong>
+          Como o próprio nome da camada já aborda, é nesse momento que tratamos sobre os componentes de hardware e resumidamente
+          em quais meios de conexão irão trafegar os dados. Diz respeito a transmissão e recepção do fluxo de bits brutos não-estruturados em um meio físico.
+          Ela descreve as interfaces elétricas,
+          ópticas, mecânicas e funcionais para o meio físico e transporta sinais para todas as camadas superiores.
+        </strong>
+      </p>
+
+          </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>

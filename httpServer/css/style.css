@@ -1,0 +1,116 @@
+
+video {
+  position: fixed;
+  left: 50%;
+  top: -10%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+a.home {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 200;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #5a6267;
+    color: #32373a;
+}
+
+
+body {
+  margin: 0;
+  background: #efefef;
+  font-family: 'Lato', sans-serif;
+}
+
+.title {
+  color: #FFFFFF;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.university {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 200;
+  margin-top: -35px;
+}
+
+.btn {
+  background: #fe3843;
+  color: #FFFFFF;
+  border: 1px solid #fe3843;
+  border-radius: 4px;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+}
+
+.thread {
+  background: #FFF;
+  margin-left: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 4px;
+  /* o código abaixo transforma a div em uma div 'flexbox' */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.thread h2 {
+  font-size: 21px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* topic style */
+.topicheader {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+}
+
+.topicheader h1 {
+  color:#333;
+}
+
+.topicmain {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.topicmain p {
+  width:70%;
+}
+
+.topicmain img {
+  width:50%;
+  border-radius:40px;
+}
+
+.topicmain h2 {
+  color:#333;
+  padding:30px;
+  font-size:30px;
+}
